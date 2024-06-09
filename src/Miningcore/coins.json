@@ -485,7 +485,7 @@
                 }
             ]
         },
-        "shareMultiplier": 65536,
+        "shareMultiplier": 4096,
         "explorerBlockLink": "https://bitchair.io/block/$hash$",
         "explorerTxLink": "https://bitchair.io/tx/{0}",
         "explorerAccountLink": "https://bitchair.io/address/{0}"
@@ -1717,12 +1717,14 @@
         "name": "Meowcoin",
         "symbol": "MEWC",
         "family": "progpow",
-        "progpower": "kawpow",
-        "website": "",
-        "market": "",
-        "twitter": "",
+        "progpower": "meowpow",
+        "website": "https://www.mewccrypto.com/",
+        "github": "https://github.com/JustAResearcher/Meowcoin",
+        "market": "https://www.coingecko.com/en/coins/meowcoin",
+        "explorer": "https://mewc.cryptoscope.io/",
+        "twitter": "https://twitter.com/MeowcoinProject",
         "telegram": "",
-        "discord": "",
+        "discord": "https://discord.com/invite/meowcoin",
         "coinbaseHasher": {
             "hash": "sha256d"
         },
@@ -1739,9 +1741,9 @@
         },
         "hasCommunityAddress": true,
         "shareMultiplier": 1,
-        "explorerBlockLink": "https://explorer.mewccrypto.com/block/$hash$",
-        "explorerTxLink": "https://explorer.mewccrypto.com/tx/{0}",
-        "explorerAccountLink": "https://explorer.mewccrypto.com/address/{0}"
+        "explorerBlockLink": "https://mewc.cryptoscope.io/block/?blockhash=$hash$",
+        "explorerTxLink": "https://mewc.cryptoscope.io/tx/?txid={0}",
+        "explorerAccountLink": "https://mewc.cryptoscope.io/address/?address={0}"
     },
     "geekcash": {
         "name": "Geek Cash",
@@ -2867,6 +2869,40 @@
         "explorerBlockLink": "https://openchains.info/coin/ntbc/block/$height$",
         "explorerTxLink": "https://openchains.info/coin/ntbc/tx/{0}",
         "explorerAccountLink": "https://openchains.info/coin/ntbc/address/{0}"
+    },
+    "nikitonium": {
+        "name": "Nikitonium",
+        "canonicalName": "Nikitonium",
+        "symbol": "NIKI",
+        "family": "bitcoin",
+        "website": "https://nikitonium.com/",
+        "market": "https://coinpaprika.com/coin/niki-nikito/",
+        "twitter": "https://twitter.com/nikitobase",
+        "telegram": "",
+        "discord": "https://discord.com/invite/QFSvSuvgGq",
+        "github": "https://github.com/nikitonium/",
+        "explorer": "https://explorer.nikitonium.com/",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.nikitonium.com/block/$hash$",
+        "explorerTxLink": "https://explorer.nikitonium.com/tx/{0}",
+        "explorerAccountLink": "https://explorer.nikitonium.com/address/{0}"
     },
     "opticalbitcoin": {
         "name": "Optical BTC",
@@ -4217,6 +4253,37 @@
         "explorerTxLink": "https://explorer.skytere.com/tx/{0}",
         "explorerAccountLink": "https://explorer.skytere.com/address/{0}"
     },
+    "subinetwork": {
+        "name": "Subi Network",
+        "canonicalName": "Subi Network",
+        "symbol": "SUBI",
+        "family": "bitcoin",
+        "website": "https://subinetwork.com/",
+        "market": "https://www.coingecko.com/en/coins/subi-network",
+        "twitter": "https://twitter.com/subi_network",
+        "discord": "https://discord.com/invite/nmaXNMg4RU",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.subinetwork.com/block/$hash$",
+        "explorerTxLink": "https://explorer.subinetwork.com/tx/{0}",
+        "explorerAccountLink": "https://explorer.subinetwork.com/address/{0}"
+    },
     "sugarchain": {
         "name": "Sugarchain",
         "canonicalName": "SugarChain",
@@ -4920,7 +4987,7 @@
             "hash": "reverse",
             "args": [
                 {
-                    "hash": "sha256d"
+                    "hash": "yespower"
                 }
             ]
         },
